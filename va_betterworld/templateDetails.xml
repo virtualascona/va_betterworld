@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	client="site">
+	<name>VA_Betterworld</name>
+	<creationDate>April-2012</creationDate>
+	<author>Virtualascona.com</author>
+	<authorEmail>admin@virtualascona.com</authorEmail>
+	<authorUrl>http://www.virtualascona.com</authorUrl>
+	<copyright>Copyright (C) 2012 Virtualascona. All rights reserved.</copyright>
+	<license>Commercial</license>
+	<version>1.0.0</version>
+	<description>
+		<![CDATA[
+        	<style type="text/css">
+        	span.readonly { padding: 10px; font-family: Arial; font-size:13px !important; font-weight: normal !important; text-align: justify; color: #4d4d4d; line-height: 24px; }
+        	span.readonly h1 { clear:both; font-family: Georgia, sans-serif; font-size:38px; margin:30px 20px 23px; padding:0px 0px 24px 10px; color:#333; border-bottom: 1px solid #eee; font-weight: normal; }
+        	span.readonly p { margin: 0 26px 10px; font-size:14px;}
+        	#gk_about_us a,
+        	span.readonly p a { color: #000 }
+        	span.readonly p.homepage { margin-top: 30px }
+        	span.readonly p.license { border-top: 1px solid #eee; font-size: 11px; margin: 30px 26px 0; padding: 6px 0; }
+        	</style>
+        	<span class="readonly"><h1>VA Betterworld</<h1></span>
+			<p style="margin-top:20px;">Betterworld is a template based on The nike's better world effect</p>
+        ]]>
+		</description>
+		
+	<files>
+		<folder>css</folder>
+        <folder>html</folder>
+		<folder>images</folder>
+		<folder>javascript</folder>
+		<folder>admin/</folder>
+		<folder>elastixx</folder>
+		<folder>language</folder>
+		<folder>php/</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>LICENSE.txt</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_VA_Betterworld.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_VA_Betterworld.sys.ini</language>
+	</languages>
+
+	 <config>
+            <fields name="params" addfieldpath="/templates/va_betterworld/admin/elements">
+			
+			<fieldset name="BAS_SET" addfieldpath="/templates/va_betterworld/php">
+				<field name="settings" type="eladmin" default="" description="" label=" " />
+				<field type="spacer" name="myspacer" hr="true" />
+				<field name="headerbgcolor" type="jscolor" default="#0853A0" label="Header Background" description="Select background color of header area." />
+				<field name="test1" label ="Test Field" type="editor" width="500" filter="safehtml" />
+             	<field type="asset" path="templates/va_Betterworld/admin/" />
+                
+			<field 
+				default="/templates/va_Betterworld/images/firstBG.jpg"
+				name="bg1" 
+				type="media"
+				label="BG1" 
+				description="LOGO_DES" />
+				
+			<field 
+				default="/templates/va_Betterworld/images/secondBG.jpg"
+				name="bg2" 
+				type="media"
+				label="BG2" 
+				description="LOGO_DES" />
+				
+			<field 
+				default="/templates/va_Betterworld/images/thirdBG.jpg"
+				name="bg3" 
+				type="media"
+				label="BG3" 
+				description="LOGO_DES" />
+												
+			</fieldset>
+			
+			<fieldset name="PATTERNS_SETTINGS">
+			
+		<field 
+				default="/templates/va_Betterworld/images/trainers.png"
+				name="object" 
+				type="media"
+				label="OBJECT" 
+				description="LOGO_DES" />
+			
+			</fieldset>
+			
+		  <fieldset name="ADVANCED_SETTINGS">
+        
+   				<field name="gacode"  type="text" default=""
+					label="GOOGLE_ANALYTICS"
+					description="GA_DES"
+					filter="string" />
+					
+				<field name="foot"  type="text" default="virtualascona.com"
+					label="FOOT"
+					description="FOOT_DES"
+					filter="string" />
+					
+        </fieldset>
+		</fields>
+		</config>
+
+	<positions>
+		<position>VA-story1</position>
+		<position>VA-story2</position>
+		<position>VA-story3</position>
+		<position>VA-story4</position>
+	</positions>
+
+</extension>
