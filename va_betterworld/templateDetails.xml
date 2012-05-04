@@ -63,21 +63,21 @@
              	<field type="asset" path="templates/va_Betterworld/admin/" />
                 
 			<field 
-				default="/templates/va_Betterworld/images/firstBG.jpg"
+				default="/templates/va_betterworld/images/firstBG.jpg"
 				name="bg1" 
 				type="media"
 				label="BG1" 
 				description="LOGO_DES" />
 				
 			<field 
-				default="/templates/va_Betterworld/images/secondBG.jpg"
+				default="/templates/va_betterworld/images/secondBG.jpg"
 				name="bg2" 
 				type="media"
 				label="BG2" 
 				description="LOGO_DES" />
 				
 			<field 
-				default="/templates/va_Betterworld/images/thirdBG.jpg"
+				default="/templates/va_betterworld/images/thirdBG.jpg"
 				name="bg3" 
 				type="media"
 				label="BG3" 
@@ -88,7 +88,7 @@
 			<fieldset name="PATTERNS_SETTINGS">
 			
 		<field 
-				default="/templates/va_Betterworld/images/trainers.png"
+				default="/templates/va_betterworld/images/trainers.png"
 				name="object" 
 				type="media"
 				label="OBJECT" 
