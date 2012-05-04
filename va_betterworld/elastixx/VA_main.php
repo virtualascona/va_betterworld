@@ -76,10 +76,10 @@ $gacode               = $this->params->get('gacode');
 	<body>
 
 	<ul id="nav">
-		<li><a href="#intro" title="Next Section"><img src="<?php echo $this->baseurl ?>/templates/va_Betterworld/images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#second" title="Next Section"><img src="<?php echo $this->baseurl ?>/templates/va_Betterworld/images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#third" title="Next Section"><img src="<?php echo $this->baseurl ?>/templates/va_Betterworld/images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#fifth" title="Next Section"><img src="<?php echo $this->baseurl ?>/templates/va_Betterworld/images/dot.png" alt="Link" /></a></li>
+		<li><a href="#intro" title="Next Section"><img src="<?php echo $this->baseurl ?>/templates/va_betterworld/images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#second" title="Next Section"><img src="<?php echo $this->baseurl ?>/templates/va_betterworld/images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#third" title="Next Section"><img src="<?php echo $this->baseurl ?>/templates/va_betterworld/images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#fifth" title="Next Section"><img src="<?php echo $this->baseurl ?>/templates/va_betterworld/images/dot.png" alt="Link" /></a></li>
 	</ul>
 	
 	<div id="intro" style="background: url('<?php echo $base ?><?php echo $bg1 ?>')">
